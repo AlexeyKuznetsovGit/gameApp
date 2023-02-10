@@ -17,14 +17,14 @@ class MainScreen extends StatelessWidget {
             const Padding(
               padding: EdgeInsets.symmetric(vertical: 50.0),
               child: Text(
-                'GameApp',
+                'Space Lancer',
                 style: TextStyle(
                   fontSize: 50.0,
-                  color: Colors.black,
+                  color: Colors.white,
                   shadows: [
                     Shadow(
                       blurRadius: 20.0,
-                      color: Colors.white,
+                      color: Colors.grey,
                       offset: Offset(0, 0),
                     )
                   ],
